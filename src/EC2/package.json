@@ -1,0 +1,17 @@
+{
+  "name": "ec2",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "npm install",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-ec2": "^3.670.0",
+    "@aws-sdk/util-waiter": "^3.370.0"
+  }
+}
